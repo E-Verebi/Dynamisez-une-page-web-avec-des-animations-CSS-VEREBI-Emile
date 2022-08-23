@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,133 +19,143 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <a href="accueil.html"><i class="fa-solid fa-arrow-left"></i></a>
-        <img src="images/logo/ohmyfood.png" alt="Ohmyfood">
+        <div class="header__titlecontainer">
+            <img src="images/logo/ohmyfood.png" alt="Ohmyfood">
+        </div>
     </header>
-
-    <div>
+    <div class="image">
         <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Délice">
     </div>
 
-    <section>
-        <div>
+    <section class="principal">
+        <div class="principal__title">
             <h1>Le délice des sens</h1>
             <i class="fa-regular fa-heart"></i>
         </div>
-        <article class="biggest">
-            <h2>Entrées</h2>
-            <div class="Conteneur cartes">
-                <div class="carte">
-                    <div>
+        <article class="principal__article">
+            <div class="principal__article__titles">
+                <h2>Entrées</h2>
+                <div class="principal__article__titles__underscore"></div>
+            </div>
+            <div class="principal__article__container">
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Tartare de thon</h3>
                         <h4>Assaisonné au yuzu</h4>
                     </div>
                     <p>25€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
-                <div class="carte">
-                    <div>
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Bouchée de homard croustillant</h3>
                         <h4>Et sa farandole de petits légumes</h4>
                     </div>
                     <p>35€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
-                <div class="carte">
-                    <div>
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Velouté de cèpes</h3>
                         <h4>Aux truffes</h4>
                     </div>
                     <p>20€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
             </div>
         </article>
-        <article class="biggest">
-            <h2>Plats</h2>
-            <div class="Conteneur cartes">
-                <div class="carte">
-                    <div>
+        <article class="principal__article">
+            <div class="principal__article__titles">
+                <h2>Plats</h2>
+                <div class="principal__article__titles__underscore"></div>
+            </div>
+            <div class="principal__article__container">
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Poulet rôti aux herbes de Provence</h3>
                         <h4>Et sa crème de truffe</h4>
                     </div>
                     <p>40€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
-                <div class="carte">
-                    <div>
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Langouste rôtie</h3>
                         <h4>Et ses légumes de saison</h4>
                     </div>
                     <p>35€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
-                <div class="carte">
-                    <div>
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Côte de boeuf Angus</h3>
                         <h4>Et sa purée de panais</h4>
                     </div>
                     <p>44€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
             </div>
         </article>
-        <article class="biggest">
-            <h2>Desserts</h2>
-            <div class="Conteneur cartes">
-                <div class="carte">
-                    <div>
+        <article class="principal__article">
+            <div class="principal__article__titles">
+                <h2>Desserts</h2>
+                <div class="principal__article__titles__underscore"></div>
+            </div>
+            <div class="principal__article__container">
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Farandole de desserts</h3>
                         <h4>Du chef</h4>
                     </div>
                     <p>18€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
-                <div class="carte">
-                    <div>
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Crème brulée</h3>
                         <h4>Revisitée</h4>
                     </div>
                     <p>22€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
-                <div class="carte">
-                    <div>
+                <div class="principal__article__container__card">
+                    <div class="principal__article__container__card__text">
                         <h3>Tiramisu</h3>
                         <h4>À la noisette</h4>
                     </div>
                     <p>23€</p>
-                    <div>
+                    <div class="principal__article__container__card__animation">
                         <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
             </div>
         </article>
-        <button>Commander</button>
+        <button class="principal__button button">Commander</button>
     </section>
     <footer>
-        <h4>ohmyfood</h4>
-        <p><i class="fa-solid fa-utensils"></i> Proposer un restaurant</p>
-        <p><i class="fa-solid fa-handshake-angle"></i> Devenir partenaire</p>
+        <h4 class="footer_title">ohmyfood</h4>
+        <a class="footer__important"><i class="fa-solid fa-utensils footer__icons"></i>Proposer un restaurant</a>
+        <a class="footer__important"><i class="fa-solid fa-handshake-angle footer__icons"></i>Devenir partenaire</a>
         <p>Mentions légales</p>
-        <a href="mailto: ohmyfood@exemple.fr">Contact</a>
+        <a class="footer__mail" href="mailto: ohmyfood@exemple.fr">Contact</a>
     </footer>
 </body>
 
