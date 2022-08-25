@@ -1,6 +1,3 @@
-body {
-    height: 100%;
-}
 
 .header {
     width: 100%;
@@ -18,6 +15,7 @@ body {
         position: absolute;
         left: 24px;
         margin-top: 6px;
+        color: #353535;
 
 
         & i {
@@ -68,6 +66,9 @@ body {
         text-decoration: none;
         margin-left: 8%;
         padding-bottom: 13px;
+        &:hover {
+            text-decoration: underline;
+        }
 
         & .fa-solid {
             font-size: normal;
@@ -141,6 +142,9 @@ body {
     font-size: medium;
     background: linear-gradient(170deg, #ff79da, #9356dc);
     box-shadow: 0 3px 5px 1px rgb(172, 172, 172);
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .fonctionnement {
@@ -363,7 +367,7 @@ body {
             text-decoration: none;
             color: black;
             width: fit-content;
-            margin: 0 36px 0 0;
+            margin: 0 36px 0 36px;
 
             & i {
 
@@ -407,9 +411,12 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                border: 1px solid black;
+                box-shadow: 0 3px 5px 1px rgb(172, 172, 172);
                 overflow: hidden;
-                
+                margin: 7px 0 7px 0;
+                border-radius: 10px;
+                background-color: white;
+
                 &:hover > &__right {
                     margin-right: 0;
                 }
@@ -477,5 +484,14 @@ body {
             }
         }
     }
-
+&__last{
+    padding-top: 45px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    .button{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
 }
