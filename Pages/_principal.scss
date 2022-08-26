@@ -1,0 +1,149 @@
+.principal {
+    background-color: $color-main-background;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & h1 {
+            margin: 0 0 0 18px;
+            font-family: 'Shrikhand';
+            font-weight: normal;
+            font-size: 28px;
+        }
+
+        & a {
+            text-decoration: none;
+            color: $color-main-texte;
+            width: fit-content;
+            margin: 0 36px 0 36px;
+
+            & i {
+
+                display: block;
+
+                font-size: x-large;
+            }
+        }
+    }
+
+    &__article {
+        margin: 0 18px;
+
+        &__titles {
+            margin: 30px 0 10px 0;
+
+            & h2 {
+                margin: 0;
+                font-weight: 300;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            &__underscore {
+                width: 40px;
+                height: 3px;
+                background-color: $color-tertiary;
+                margin-top: 5px;
+            }
+
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__card {
+
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 0 3px 5px 1px rgb(172, 172, 172);
+                overflow: hidden;
+                margin: 7px 0 7px 0;
+                border-radius: 10px;
+                background-color: $color-background-cards;
+
+                &:hover>&__right {
+                    margin-right: 0;
+                }
+
+                &__text {
+                    margin-left: 7px;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+
+                    & h3 {
+                        margin: 0;
+                        font-size: 18px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+
+                    & h4 {
+                        margin: 0;
+                        font-weight: 300;
+                        font-size: 14.5px;
+                        padding-top: 3px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                }
+
+                &__right {
+
+                    width: fit-content;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    flex-shrink: 0;
+                    margin-right: -60px;
+                    transition-duration: 0.5s;
+
+                    & p {
+                        margin: 22px 20px 0 0;
+                        font-size: 14.5px;
+                        font-weight: bold;
+
+
+                    }
+
+                    &__animation {
+
+                        background-color: $color-tertiary;
+                        width: 60px;
+                        height: 60px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+
+
+
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    &__last {
+        padding-top: 45px;
+        padding-bottom: 75px;
+        display: flex;
+        justify-content: center;
+
+        .button {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+}

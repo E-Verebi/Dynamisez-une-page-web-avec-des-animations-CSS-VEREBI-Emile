@@ -1,0 +1,92 @@
+.restaurants {
+
+    background-color: $color-main-background;
+
+    & h2 {
+        margin: 45px 0px 30px 23px;
+        padding-top: 55px;
+    }
+
+    &__container {
+        margin: 0 23px;
+        padding-bottom: 60px;
+
+        &__carte {
+            display: block;
+            text-decoration: none;
+            box-shadow: 0 3px 5px 1px $color-main-shadow;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+
+            &__image {
+                height: 175px;
+                display: flex;
+                overflow: hidden;
+                justify-content: end;
+
+
+                & img {
+                    object-fit: cover;
+                    max-width: 100%;
+                    width: 100%;
+                    max-height: 100%;
+                    position: initial;
+                    z-index: 0;
+
+                }
+
+                & p {
+                    font-weight: 500;
+                    border-radius: 3px;
+                    padding: 7px 12px;
+                    z-index: 1;
+                    color: $color-texte-nouveau;
+                    background-color: $color-tertiary;
+                    position: absolute;
+                    margin: 12px 12px;
+
+
+
+                }
+            }
+
+            &__bottom {
+                display: flex;
+                color: $color-main-texte;
+                justify-content: space-between;
+                align-items: center;
+
+
+                &__text {
+
+                    width: fit-content;
+                    margin-left: 13px;
+
+                    & h3 {
+                        margin: 0;
+                        margin-top: 15px;
+                        font-size: large;
+                    }
+
+                    & p {
+                        margin: 0;
+                        margin-top: 3px;
+                        margin-bottom: 15px;
+                        font-size: 17px;
+                        font-weight: 300;
+                    }
+
+                }
+
+                & i {
+                    display: block;
+                    font-size: 25px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+
+    }
+}

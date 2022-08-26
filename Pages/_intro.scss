@@ -1,0 +1,24 @@
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-main-background;
+    text-align: center;
+
+    & h1 {
+        margin: 40px 70px 0 70px;
+    }
+
+    & p {
+        margin: 12px 30px 28px 30px;
+        font-weight: 300;
+        font-size: large;
+    }
+
+    .button {
+        margin-bottom: 55px;
+    }
+
+}

@@ -1,0 +1,13 @@
+.button {
+    color: $color-button-text;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 20px;
+    font-size: medium;
+    background: linear-gradient(170deg, $color-secondary, $color-primary);
+    box-shadow: 0 3px 5px 1px $color-main-shadow;
+    &:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,78 @@
+.fonctionnement {
+
+    margin: 0 23px;
+
+    & h2 {
+        margin: 45px 0px 30px 0px;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__carte {
+
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-left: 8px;
+            background-color: $color-main-background;
+            border-radius: 25px;
+            box-shadow: 0 3px 5px 1px $color-main-shadow;
+
+            &__number {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 23px;
+                height: 23px;
+                color: $color-number-fonctionnement;
+                font-size: small;
+                background-color: $color-primary;
+                border-radius: 50%;
+                position: relative;
+                right: 11.5px;
+
+
+
+            }
+
+            &__contenu {
+
+                display: flex;
+                align-items: center;
+                padding: 27px 0;
+                margin-left: 8px;
+
+                & p {
+                    margin: 0;
+                    margin-left: 25px;
+                    font-weight: 500;
+                }
+
+                & i {
+                    font-size: large;
+                    color: $color-icon-fonctionnement;
+                }
+            }
+
+            &__contenu--two {
+                margin-left: 4px;
+            }
+
+            &__contenu--three {
+                margin-left: 3px;
+
+                & i {
+                    color: $color-primary;
+                }
+            }
+        }
+
+        &__carte--three {
+            background-color: $color-background-fonctionnement3;
+        }
+
+    }
+}

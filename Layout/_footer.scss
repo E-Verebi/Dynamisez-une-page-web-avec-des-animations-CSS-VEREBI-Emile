@@ -1,0 +1,41 @@
+.footer {
+    background-color: $color-footer-background;
+
+    &__title {
+        font-family: 'Shrikhand';
+        font-weight: normal;
+        font-size: large;
+        color: $color-footer-links;
+        margin: 0;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        margin-left: 8%;
+    }
+
+
+    &__link {
+        display: block;
+        color: $color-footer-links;
+        text-decoration: none;
+        margin-left: 8%;
+        padding-bottom: 13px;
+        &:hover {
+            text-decoration: underline;
+        }
+
+        & .fa-solid {
+            font-size: normal;
+            margin-right: 11px;
+        }
+
+        & .fa-handshake-angle {
+            font-size: 11px;
+        }
+    }
+
+    &__mail {
+        padding-bottom: 40px;
+    }
+
+
+}
