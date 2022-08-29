@@ -7,7 +7,12 @@
     font-size: medium;
     background: linear-gradient(170deg, $color-secondary, $color-primary);
     box-shadow: 0 3px 5px 1px $color-main-shadow;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
     &:hover{
-        cursor: pointer;
+        
+        background: linear-gradient(170deg, lighten($color-secondary, 5%), lighten($color-primary, 5%));
+        box-shadow: 0 5px 7px 3px $color-main-shadow;
+        
     }
 }
