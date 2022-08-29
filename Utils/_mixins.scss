@@ -1,0 +1,7 @@
+@mixin délai-apparition {
+    @for $i from 1 to 11 {
+        &--#{$i} {
+            animation-delay: 200ms * $i;
+        }
+}
+}

@@ -67,12 +67,7 @@
                 border-radius: 10px;
                 background-color: $color-background-cards;
                 animation: apparition-progressive 1s ease-in-out backwards;
-                @for $i from 1 to 11 {
-                    &--#{$i} {
-                        animation-delay: 200ms * $i;
-                    }
-                    
-                }
+                @include délai-apparition;
 
                 &:hover>&__right {
                     margin-right: 0;
