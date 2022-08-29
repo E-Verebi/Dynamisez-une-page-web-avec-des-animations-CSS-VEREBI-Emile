@@ -66,6 +66,13 @@
                 margin: 7px 0 7px 0;
                 border-radius: 10px;
                 background-color: $color-background-cards;
+                animation: apparition-progressive 1s ease-in-out backwards;
+                @for $i from 1 to 11 {
+                    &--#{$i} {
+                        animation-delay: 200ms * $i;
+                    }
+                    
+                }
 
                 &:hover>&__right {
                     margin-right: 0;
