@@ -1,3 +1,11 @@
+@keyframes check-rotation {
+  0% {
+    transform: rotate(1turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -355,6 +363,9 @@ body {
 .principal__article__container__card:hover > .principal__article__container__card__right {
   margin-right: 0;
 }
+.principal__article__container__card:hover > .principal__article__container__card__right > .principal__article__container__card__right__animation > i {
+  animation: check-rotation 0.5s ease-in 0.1s;
+}
 .principal__article__container__card__text {
   margin-left: 7px;
   white-space: nowrap;
@@ -399,6 +410,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #99e2d0;
+}
+.principal__article__container__card__right__animation i {
+  background-color: #ffffff;
+  padding: 3px 4px;
+  border-radius: 50%;
 }
 .principal__last {
   padding-top: 45px;
