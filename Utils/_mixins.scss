@@ -5,3 +5,20 @@
         }
 }
 }
+
+@mixin animation-coeur {
+    & i {
+
+        display: block;
+        position: absolute;
+        font-size: x-large;
+
+    }
+    .fa-solid {
+        color: $color-tertiary;
+        transform: scale(0);
+    }
+    &:hover>.fa-solid{
+        animation: heart 700ms ease-in-out forwards;
+                    }
+}
