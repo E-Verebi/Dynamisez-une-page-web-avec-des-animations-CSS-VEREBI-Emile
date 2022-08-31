@@ -19,3 +19,26 @@
         opacity: 1;
     }
 }
+
+@keyframes background-loader {
+    0% {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    95% {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@keyframes spinning {
+    to {
+        transform: rotate(360deg);
+    }
+}
