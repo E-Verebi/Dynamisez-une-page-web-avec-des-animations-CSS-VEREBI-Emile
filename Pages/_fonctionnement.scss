@@ -10,6 +10,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        @media (min-width: 768px){
+            margin: 0 2.5% 0 2.5%;
+        }
+        @media (min-width: 992px){
+            
+            flex-direction: row;
+            justify-content: space-around;
+             
+         }
 
         &__carte {
 
@@ -20,7 +29,10 @@
             background-color: $color-main-background;
             border-radius: 25px;
             box-shadow: 0 3px 5px 1px $color-main-shadow;
-
+            @media (min-width: 992px){
+                width: 30%;
+                 
+             }
             &__number {
                 display: flex;
                 justify-content: center;

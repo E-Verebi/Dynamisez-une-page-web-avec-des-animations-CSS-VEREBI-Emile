@@ -10,6 +10,12 @@
     &__container {
         margin: 0 23px;
         padding-bottom: 60px;
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
 
         &__carte {
             display: block;
@@ -18,6 +24,12 @@
             border-radius: 15px;
             overflow: hidden;
             margin-bottom: 20px;
+            @media (min-width: 768px) {
+                width: 45%;
+            }
+            @media (min-width: 992px) {
+            width: 22.5%;
+            }
 
             &__image {
                 height: 175px;

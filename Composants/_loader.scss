@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
 
+    
+
     .omf {
         
         position: fixed;
@@ -41,5 +43,21 @@
         border-top-color: $color-tertiary;
         animation: spinning 1s ease-in-out infinite;
 
+    }
+    @media (min-width: 768px){
+        .omf {
+            margin: 35% 0 0 0;      
+        }
+        .spinner {
+            margin: 35%;
+        }
+    }
+    @media (min-width: 992px){
+        .omf {
+            margin: 20% 0 0 0;      
+        }
+        .spinner {
+            margin: 20%;
+        }
     }
 }

@@ -3,11 +3,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    background-color: $color-footer-background;
+}
 body {
     
-    max-width: 768px;
+   
     min-width: 320px;
-    
-    /*border et width temporaires*/
+
     margin: auto;
+    background-color: $color-header-background;
 }
