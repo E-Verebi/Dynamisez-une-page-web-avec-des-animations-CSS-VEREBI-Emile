@@ -416,6 +416,7 @@ body {
 }
 .restaurants__container__carte__bottom__heart .fa-solid {
   background: linear-gradient(170deg, #ff79da, #9356dc);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   transform: scale(0);
@@ -479,6 +480,7 @@ body {
 }
 .principal__title a .fa-solid {
   background: linear-gradient(170deg, #ff79da, #9356dc);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   transform: scale(0);

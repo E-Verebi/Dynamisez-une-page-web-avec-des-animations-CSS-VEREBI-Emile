@@ -16,6 +16,7 @@
     }
     .fa-solid {
         background: linear-gradient(170deg, $color-secondary, $color-primary);
+        -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         transform: scale(0);
